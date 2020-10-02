@@ -19,5 +19,8 @@ public class AddressBook {
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
     }
+    public int addTwoInts(int one, int two){
+        return one + two;
+    }
 
 }
