@@ -7,7 +7,7 @@ public class AddressBook {
     }
     public void addBuddy(BuddyInfo bud){
         buds.add(bud);
-    }
+    }//Some text added in github
 
     public boolean removeBuddy(BuddyInfo bud){
         return buds.remove(bud);
