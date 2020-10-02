@@ -1,7 +1,10 @@
-import java.util.List;
+import java.util.*;
 public class AddressBook {
     List<BuddyInfo> buds;
 
+    public AddressBook(){
+        buds = new ArrayList<>();
+    }
     public void addBuddy(BuddyInfo bud){
         buds.add(bud);
     }
